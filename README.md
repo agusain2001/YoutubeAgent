@@ -14,18 +14,22 @@ This project integrates a YouTube data scraper with an AI-powered processing age
 ## Project Structure
 
 ```
-project/
-├── app.js                 # Main backend application file
-├── routes.js              # Additional API routes
-├── youtubeAgent.js        # AI-integrated YouTube agent
-├── scraper/               # Python scraper module
-│   ├── youtube_scraper.py # Python scraper logic
-│   ├── requirements.txt   # Python dependencies
-│   └── .env               # Environment variables for scraper
-├── node_modules/          # Node.js dependencies
-├── package.json           # Node.js dependencies and scripts
-├── .env                   # Environment variables for the backend
-└── README.md              # Documentation
+youtube-llm-agent/
+├── backend/                        
+│   ├── app.js                   # Main Express app setup
+│   ├── youtubeAgent.js          # Google Gemini-based AI agent logic
+│   ├── geminiConfig.js          # Configuration for Google Gemini API
+│   ├── routes.js                # API route for handling requests
+│   ├── package.json             # Node.js project metadata
+│   ├── .env                     # Environment variables (e.g., API keys)
+│   └── README.md                # Documentation for backend
+├── scraper/                         
+│   ├── youtube_scraper.py       # YouTube Data API scraper logic
+│   ├── requirements.txt         # Python dependencies
+│   ├── .env                     # Environment variables for scraper
+│   └── README.md                # Documentation for scraper
+├── README.md                    # Root-level documentation
+
 ```
 
 ---
