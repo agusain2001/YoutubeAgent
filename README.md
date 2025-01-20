@@ -251,5 +251,5 @@ def youtube_api_scrape(keyword, max_results=10):
 ---
 
 ## Author
-Developed by [Your Name]. Feel free to contribute or report issues via GitHub!
+Developed by Ashish. Feel free to contribute or report issues via GitHub!
 
